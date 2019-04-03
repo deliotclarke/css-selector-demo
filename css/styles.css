@@ -1,0 +1,37 @@
+body {
+    background: goldenrod;
+}
+
+nav a {
+    color: darkred;
+}
+
+article > p {
+    background-color: yellowgreen;
+}
+
+#topnav {
+    background-color: white;
+}
+
+div ~ p {
+    background-color: purple;
+}
+
+div + p {
+    background-color: pink; 
+}
+
+/* same specificity as the div ~ p, but it comes after so it overwrites */
+
+.active {
+    color: blanchedalmond;
+}
+
+footer a {
+    color: darkcyan;
+}
+
+a {
+    color: darkgreen;
+}
